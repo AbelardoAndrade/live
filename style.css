@@ -1,0 +1,77 @@
+*{
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background-color: rgba(129, 187, 201, 0.199);
+    margin-top: 1rem;
+    border-radius: 3px;
+    padding: 1rem;
+}
+.principal-tittle {
+    text-align: center;  
+}
+
+.apresentation {
+    text-align: center;
+    font-weight: lighter;
+}
+.comment {
+    text-align: right;
+    font-weight: lighter;
+    color: black;
+}
+
+.rounded {
+    width: 18rem;
+    height: 10rem;
+}
+.text-center {
+    max-width: 45rem;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 1rem;
+}
+
+.cqmminitial h6 {
+text-align: center;
+font-size: 1.6rem;
+font-weight: 100;
+background-color: rgba(240, 255, 255, 0.603);
+border-radius: 3rem;
+}
+
+.cqmm {
+    max-width: 10rem;
+    border-radius: 3rem;
+}
+.materia1 {
+max-width: 35rem;
+margin-inline: auto;
+
+}
+
+.prof {
+    color: rgba(1, 1, 146, 0.534);
+}
+.profa {
+    color: rgb(247, 130, 149);
+}
+
+.prof a {
+    color: rgba(1, 1, 146, 0.534);
+}
+.profa a {
+    color: rgb(247, 130, 149);
+}
+
+footer {
+    text-align: center;
+    margin-top: 1rem;
+    background-color: rgba(178, 228, 228, 0.603);
+    color: rgba(0, 0, 0, 0.582);
+}
