@@ -16,6 +16,11 @@ a {
     text-align: center;  
 }
 
+.upper-text {
+padding-top: 1rem;
+color: aliceblue;
+}
+
 .apresentation {
     text-align: center;
     font-weight: lighter;
@@ -69,9 +74,22 @@ margin-inline: auto;
     color: rgb(247, 130, 149);
 }
 
+.return, .return a {
+    border: none;
+    font-weight: bold;
+    color: brown;
+}
+
 footer {
     text-align: center;
     margin-top: 1rem;
     background-color: rgba(178, 228, 228, 0.603);
     color: rgba(0, 0, 0, 0.582);
+}
+
+header {
+    background-image:url(atomo.png);
+    background-position: -4rem, 0rem, 1rem;
+    color: aliceblue;
+    text-shadow: black 2px 2px 2px;
 }
