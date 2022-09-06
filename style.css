@@ -11,6 +11,7 @@ a {
     margin-top: 1rem;
     border-radius: 3px;
     padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .principal-tittle {
     text-align: center;  
@@ -79,6 +80,7 @@ margin-inline: auto;
     font-weight: bold;
     color: brown;
 }
+
 
 footer {
     text-align: center;
