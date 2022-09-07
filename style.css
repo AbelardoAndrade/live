@@ -12,9 +12,10 @@ a {
     border-radius: 3px;
     padding: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
 }
 .principal-tittle {
-    text-align: center;  
+    text-align: center; 
 }
 
 .upper-text {
@@ -47,25 +48,54 @@ color: aliceblue;
 text-align: center;
 font-size: 1.6rem;
 font-weight: 100;
-background-color: rgba(240, 255, 255, 0.603);
+color: rgb(255, 255, 255);
+text-shadow: black 2px 2px 2px;
 border-radius: 3rem;
+padding: 0.5rem;
 }
 
 .cqmm {
-    max-width: 10rem;
+    max-width: 8rem;
     border-radius: 3rem;
+    margin-inline: auto;
+    display: flex;
 }
 .materia1 {
 max-width: 35rem;
 margin-inline: auto;
-
 }
+
+.materia2 {
+    max-width: 35rem;
+    margin-inline: auto;
+    }
 
 .prof {
-    color: rgba(1, 1, 146, 0.534);
+    color: rgb(255, 255, 255);
+    text-shadow: black 2px 2px 2px;
+   
+    max-width: 14rem;
+    text-align: center;
+    margin-top: 4px;
+    border-radius: 2rem;
+    margin-inline: auto;
 }
 .profa {
-    color: rgb(247, 130, 149);
+    color: rgb(241, 66, 95);
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+   max-width: 13rem;
+   text-align: center;
+   margin-top: 4px;
+   border-radius: 2rem;
+   margin-inline: auto;
+}
+
+.profa:hover {
+    background-color: rgba(240, 248, 255, 0.384);
+}
+
+.prof:hover {
+    background-color: rgba(240, 248, 255, 0.384);
 }
 
 .prof a {
@@ -79,6 +109,7 @@ margin-inline: auto;
     border: none;
     font-weight: bold;
     color: brown;
+    background-color: rgba(187, 220, 248, 0);
 }
 
 
@@ -90,8 +121,15 @@ footer {
 }
 
 header {
-    background-image:url(atomo.png);
+    background-image:url(study.jpg);
     background-position: -4rem, 0rem, 1rem;
-    color: aliceblue;
-    text-shadow: black 2px 2px 2px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    font-weight: bold;
 }
+ main {
+    background-image: linear-gradient(rgba(87, 135, 177, 0.849),rgba(138, 193, 241, 0.801), rgb(209, 233, 253), rgba(255, 255, 255, 0.692),rgba(138, 193, 241, 0.801));
+    max-width: 71rem;
+    margin-inline: auto;
+    
+ }
