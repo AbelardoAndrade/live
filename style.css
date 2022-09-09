@@ -18,6 +18,12 @@ a {
     text-align: center; 
 }
 
+.sub-tittle{
+    text-align: center;  
+    color: rgb(255, 255, 255);
+text-shadow: black 2px 2px 2px;
+}
+
 .upper-text {
 padding-top: 1rem;
 color: aliceblue;
@@ -70,45 +76,32 @@ margin-inline: auto;
     margin-inline: auto;
     }
 
-.prof {
-    color: rgb(255, 255, 255);
-    text-shadow: black 2px 2px 2px;
+.card a {
+color: black;
+
+}
+
+.card a:hover {
+    color: rgb(60, 131, 179);
    
-    max-width: 14rem;
-    text-align: center;
-    margin-top: 4px;
-    border-radius: 2rem;
-    margin-inline: auto;
-}
-.profa {
-    color: rgb(241, 66, 95);
-    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
-   max-width: 13rem;
-   text-align: center;
-   margin-top: 4px;
-   border-radius: 2rem;
-   margin-inline: auto;
 }
 
-.profa:hover {
-    background-color: rgba(240, 248, 255, 0.384);
+.btn {
+    background-color: aliceblue;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0.5rem;
 }
 
-.prof:hover {
-    background-color: rgba(240, 248, 255, 0.384);
-}
-
-.prof a {
-    color: rgba(1, 1, 146, 0.534);
-}
-.profa a {
-    color: rgb(247, 130, 149);
+.btn:hover {
+    background-color: azure;
+    color: black;
 }
 
 .return, .return a {
     border: none;
     font-weight: bold;
-    color: brown;
+    color: rgb(74, 123, 197);
     background-color: rgba(187, 220, 248, 0);
 }
 
@@ -116,7 +109,7 @@ margin-inline: auto;
 footer {
     text-align: center;
     margin-top: 1rem;
-    background-color: rgba(178, 228, 228, 0.603);
+    background-color: rgba(235, 255, 255, 0.603);
     color: rgba(0, 0, 0, 0.582);
 }
 
@@ -130,6 +123,8 @@ header {
  main {
     background-image: linear-gradient(rgba(87, 135, 177, 0.849),rgba(138, 193, 241, 0.801), rgb(209, 233, 253), rgba(255, 255, 255, 0.692),rgba(138, 193, 241, 0.801));
     max-width: 71rem;
+
     margin-inline: auto;
     
  }
+
